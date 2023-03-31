@@ -1,0 +1,91 @@
+body {
+    background-color: #fff;
+}
+
+.fondo {
+    position: relative;
+    background-image: url('/img/libros.jpg');
+    background-size: 100%;
+    height: 1200px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  form input[type="text"],
+  form select {
+    padding: 8px 10px;
+    border: none;
+    border-bottom: 2px solid #777;
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  a.btn {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: all 0.2s ease-in-out;
+  }
+
+  a.btn:hover {
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62;
+  }
+
+  form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .alert {
+    margin: 20px auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    background-color: #dc3545;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .alert ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .alert li {
+    margin-bottom: 5px;
+  }
+
+  h3 {
+    color: #F08080;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
